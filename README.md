@@ -16,7 +16,7 @@
   python primocachebuster.py
   ```
 
-- 重新安装PrimoCache（如果没有安装包，可以在这里下载 [romexsoftware/primo-cache-packages]([github.com](https://github.com/romexsoftware/primo-cache-packages/))）
+- 重新安装PrimoCache（如果没有安装包，可以在这里下载 [romexsoftware/primo-cache-packages](https://github.com/romexsoftware/primo-cache-packages/)）
 
 ## Thanks
 
