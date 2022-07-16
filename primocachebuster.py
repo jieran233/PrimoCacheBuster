@@ -52,8 +52,11 @@ def kill_process():
         t = process[i]
         print_('kill ' + t)
         o = executeCommandLine('taskkill /F /IM {}'.format(t))
-        print_(o['outinfo'], 'green')
-        print_(o['errinfo'], 'red')
+        if o['errinfo'] == '':
+            print_('OK.', 'green')
+        else:
+            # print_(o['outinfo'])
+            print_(o['errinfo'], 'red')
 
 def rm_reg_file():
     sys32 = os.environ.get('WINDIR') + '\\System32\\'
@@ -67,7 +70,7 @@ def rm_reg_file():
         t = sys32 + fucking_files[i]
         print_('delete ' + t)
         o = executeCommandLine('del /F /A /S /Q {}'.format(t))
-        if o['outinfo'] + o['errinfo'] == '':
+        if o['errinfo'] == '':
             print_('OK.', 'green')
         else:
             # print_(o['outinfo'])
