@@ -13,7 +13,7 @@
   python primocachebuster.py
   ```
 
-- Install PrimoCache (you can download installer at [romexsoftware/primo-cache-packages]([github.com](https://github.com/romexsoftware/primo-cache-packages/)))
+- Install PrimoCache (you can download installer at [romexsoftware/primo-cache-packages](https://github.com/romexsoftware/primo-cache-packages/))
 
 ## Thanks
 
